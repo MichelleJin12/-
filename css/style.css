@@ -1,9 +1,23 @@
 /*index title font*/
+.h {
+    border-bottom: 5px solid blueviolet;
+    padding:20px;
+}
 
-.title {
-    font-size: 25px;
+.margin {
+    margin: 20px;
+    font-size: medium;
     font-weight: bold;
 }
+
+.box {
+    border:5px solid blue;
+    width:250px;
+    margin:10px;
+    padding:20px;
+}
+
+/*진성희.html*/
 
 .up {
     background-color: aquamarine;
@@ -16,3 +30,4 @@
     background-color: burlywood;
     margin: 20px;
 }
+
