@@ -31,3 +31,9 @@
     margin: 20px;
 }
 
+.grid {
+    border-right:1px solid black;
+	display:grid;
+	grid-template-columns: 150px 1fr;
+}
+
