@@ -1,0 +1,25 @@
+{
+  "name": "web2_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gus092/Opentutorials_Node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gus092/Opentutorials_Node.js/issues"
+  },
+  "homepage": "https://github.com/gus092/Opentutorials_Node.js#readme",
+  "dependencies": {
+    "sanitize-html": "^1.24.0"
+  }
+}

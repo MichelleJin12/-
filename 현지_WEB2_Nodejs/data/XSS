@@ -1,0 +1,6 @@
+&lt;script&gt;
+location.href = 'http://opentutorials.org'
+&lt;/script&gt;
+
+//Js 코드가 들어와버리면 이 정보를 filtering 해줌
+// 검색어 : html entities
