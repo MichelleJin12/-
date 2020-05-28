@@ -1,68 +1,73 @@
 <!DOCTYPE html>
 
+<html>
 <head>
     <meta charset="UTF-8">
-    h1{
+    <title>IT/과학뉴스</title>
+
+    <style>
+      body{
+        margin:0;
+      }
+      h1 {
         font-size:45px;
-        text-align: center;
-        border-botom:1px solid gray;
-    }
+        text-align:center;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding:20px;
+      }
+      ol{
+        border-right:1px solid gray;
+        width:200px;
+        margin:0;
+        padding:20px;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns:300px 1fr;
+      }
+      @media(max-width:800px){
+        #grid{
+          display:block;
+        }
+        ol{
+          border-right:none;
+        }
+        h1{
+          border-bottom:none;
+        }
+      }
+    </style>
 </head>
+
 <body>
+  <h1><img src = "telescope.png" width = "7%"><u>IT/과학 뉴스</u> <img src = "lab.png" width = "6%"></h1>
+  <div id = "grid">
+    <ol>
+      <li><strong>뉴스 전문 보기</strong></li><br>
+      <li><strong>IT/과학 관련 용어정리</strong></li><br>
+      <li><strong>달별 뉴스 보기</strong></li>
+    </ol>
 
-<h1><img src = "htmlcoding.png" width = "4%"><u>생활코딩</u> 복습하기</h1>
-    
-<h2>WEEK 01</h2>
-<h3>- 들어가며</h3>
-<img src = "helloworld.jpg" width = "20%"><br><br>
-"<strong>원인</strong>인 코드를 통해서 <strong>결과</strong>를 만든다는 것" = <strong>코딩</strong>을 이해하는 핵심<br>
-<pr><br><strong>원인</strong> - '<u>사람</u>이 하는 일(code, source, language)'<br>
-<strong>결과</strong> - '<u>기계</u>가 하는 일(application, app, program, webpage, website)'</pr>
+    <div>
 
-<h3>- HTML은 무엇인가</h3>
-<img src = "html.jpg" width = "20%">
-<h4>HTML</h4>
-Hypertext Markup Language(HTML) is the standard markup languae for <strong>creating <u>web</u> pages</strong> and web applications.<br>
+      <h2>* 이달의 뉴스 *</h2>
+      <p><h3>우체국 택배, 집앞 무인 자율주행차에 넣기만 하면 OK (한겨레, 2020.05.28)</h3>
+        우정사업본부, 오는 10월부터 시범운용 예정<br>
+        무인 자율주행 이동우체국, 우편물 배달로봇, 집배원 추종로봇<br>
+        세 가지 장비 통해 비대면 우편물류 서비스체계 구축키로<br><br>
 
-<h3>- TAG의 종류</h3>
-<strong>'태그'</strong>할 때는 열리는 태그'<>'와 닫히는 태그'</>'를 붙여줘야한다.<br>
-단, 닫히는 태그의 경우 '/'를 사용해야 한다. 특정 태그의 경우 닫히는 태그를 아예 사용하지 않는 경우도 있다.<br><br>
-
-1) <strong>제목</strong> <h1></h1><br>
-head의 'h'를 사용하여 다음과 같이 표현한다.<h1></h1><br>
-head의 경우 h1부터 h6까지 총 6 단계가 있다.<br>
-숫자가 올라갈수록 글씨가 작아진다.
-일반적인 텍스트보다는 글씨가 두껍고, 줄바꿈이 되는 특징이 있다.
-<br><br>
-
-2) <strong>밑줄</strong> <u> </u><br>
-underline의 'u'를 사용하여 다음과 같이 표현한다.<u></u> <br><br>
-
-3) <strong>강조</strong> <strong> </strong><br>
-문장의 특정 부분을 볼드체로 강조하고 싶을 때 사용하며 다음과 같이 표현한다.<br><br>
-
-4) <strong>줄바꿈</strong> <br> or <p> <br>
-<strong>-br태그</strong>
-문장의 줄을 바꾸고 싶을 때 <br>을 사용한다.<br>
-단락의 경우 <br><br>을 두 번 작성해야 한다.
-주목할 점은 여태까지의 태그는 쌍으로 존재했다면, <br>태그는 단지 줄바꿈이라는 시각적인 의미만 갖기때문에 닫히는 태그가 필요하지 않다.<br><br>
-
-<strong>-p태그</strong>
-html paragraph tag이며 단락을 표현할 때 사용하는 태그이다.<br>
-br태그와 동일한 결과를 갖지만 한 단락을 표현해줄 수 있다는 점에서 맥락적인 의미를 파악하기에 유용하다.<br>
-br태그와 달리 p태그는 </>닫히는 태그를 사용해야 한다.<br>
-단점이라면 여백의 크기가 일정하게 정해져있기 때문에 일정 크기만크만 벌어지게 된다.<br><br>
-
-* <strong>참고</strong><br>
-css에서 태그와 태그 사이에여백을 나타내는 코드가 있다.<br>
-<p style = "margin-top:40px;(태그와태그사이의 여백)"> => 이것을 사용하면 여백과 여백이 40px만큼 떨어지게된다.<br><br>
-
-5) <strong>이미지 첨부하기</strong> <img src = "사진이름.jpg" width = "숫자%"><br>
-이미지 태그의 경우 <img>라는 태그의 이름만으로는 정보가 부족하다.<br>
-<img source>에서 source의 약자인 src를 사용하여 <img src = "사진이름.jpg" width = "100%">표현한다.<br>
-반대로 <img width = "100%" src = "사진이름.jpg">도 가능하며 내부의 순서는 상관이 없다.
-
-<a href = "https://michellejin12.github.io/web-study/">스터디그룹WEB INDEX 페이지로 돌아가기</a>
-
+        <img src = "car.jpg" width = "30%"><br><br>
+        “우체국앱으로 택배를 주문하면 약속시간에 <u>‘무인 자율주행 이동우체국’</u>이 집 앞에 당도한다. 고유번호로 차량 문을 열고 택배를 무인접수해 보낸다.
+        택배를 받을 때도 마찬가지로, 집 앞에 도착한 ‘무인 자율주행 이동우체국’ 차량 문을 열고 물건을 꺼내면 된다.”<br><br>
+        과학기술정보통신부 우정사업본부가 이르면 오는 10월부터 시범운용할 예정이라고 밝힌 ‘무인 자율주행 이동우체국’ 서비스의 미래 모습이다.<br>
+        우정사업본부는 28일 ‘자율주행 우편물류서비스 기술개발’ 착수보고회를 열어 인공기능과 자율주행 기술을 우편물류서비스 기술개발에 본격 나선다고 밝혔다.
+        쿠팡 등 대형 유통물류센터를 통한 코로나19 감염확산이 문제되고 있는 상황에서 사람간 직접 접촉이 없는
+        <a href = "https://terms.naver.com/entry.nhn?docId=5924280&cid=43659&categoryId=43659"><u>비대면(언택트)</u></a> 서비스 요구가 높은 상황에서 미래 물류서비스를 혁신하기 위한 노력이다.<br><br>
+        <a href = "https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=028&aid=0002498934">뉴스전문보기</a><br><br><br>
+        <a href = "https://michellejin12.github.io/web-study/">스터디그룹WEB INDEX 페이지로 돌아가기</a>
+      </p>
+    </div>
+  </div>
 </body>
 </html>
