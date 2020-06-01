@@ -6,6 +6,9 @@
 </head>
 
 <style>
+  body{
+    margin: 0;
+  }
   a {
     color:black;
     text-decoration: none;
@@ -16,21 +19,40 @@
   h1 {
     font-size: 60px;
     text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 20px;
+  }
+  #border{
+    margin-left: 20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    padding-left: 30px;
   }
 </style>
 <body>
   <h1><a href="유림.html">LEE-DANI</a></h1>
-  <ol>
-    <li><a href="index.html" class="saw">back to INDEX</a></li>
-  </ol>
-  <h2>이다니</h2>
-  <p>
-    <img src="https://postfiles.pstatic.net/MjAyMDA0MjdfNTEg/MDAxNTg3OTgxOTU2MDgx.lKsgOrPZ3Z3I8HLdAM1BW6O8GnzOHHkj2b4zNSMlCOYg.C58hlfvkfgavK3Y1lYo7Qssl6umERNZFRSa-3hIRErAg.JPEG.yourme_/dani1.jpg?type=w580" width="20%">
-    <img src="https://postfiles.pstatic.net/MjAyMDA0MjdfNCAg/MDAxNTg3OTgxOTU2MDkx.IALs5mXGJKtysGq6I-S-PhnRr3wCtrkvULB_q_7gHsQg.SYXkjwNL5QaJJdTus8ZYZQVczbFdQPAgvNU7AgQXN5Qg.JPEG.yourme_/dani2.jpg?type=w580" width="20%">
-    <img src="https://postfiles.pstatic.net/MjAyMDA0MjdfMTY0/MDAxNTg3OTgxOTU2MDk2.z27st_0UAsaBmAN_nuwPvQb3hoBgtpqJ0hJFfuWw68gg.FO2q_6A2Wf-FbmJ-69NsSDxaZPa3DbHqc37cAZWRfP8g.JPEG.yourme_/dani3.jpg?type=w580"width ="20%">
-  <p>
-      2019년 3월 10일생 하얀색 토이푸들, 우리집에 온 건 2019년 5월 10일! 이제 1살 좀 넘은 우리 다니는 정말 귀여워!
-    </p>
-  </p>
+  <div id="grid">
+    <ol>
+      <li><a href="dani2.html">INFO</a></li>
+      <li>PHOTO</a></li>
+      <li><a href="index.html" class="saw">back to INDEX</a></li>
+    </ol>
+    <div id="border">
+      <h2>이다니</h2>
+      <p>
+        <img src="https://postfiles.pstatic.net/MjAyMDA0MjdfNTEg/MDAxNTg3OTgxOTU2MDgx.lKsgOrPZ3Z3I8HLdAM1BW6O8GnzOHHkj2b4zNSMlCOYg.C58hlfvkfgavK3Y1lYo7Qssl6umERNZFRSa-3hIRErAg.JPEG.yourme_/dani1.jpg?type=w580" width="20%">
+        <img src="https://postfiles.pstatic.net/MjAyMDA0MjdfNCAg/MDAxNTg3OTgxOTU2MDkx.IALs5mXGJKtysGq6I-S-PhnRr3wCtrkvULB_q_7gHsQg.SYXkjwNL5QaJJdTus8ZYZQVczbFdQPAgvNU7AgQXN5Qg.JPEG.yourme_/dani2.jpg?type=w580" width="20%">
+        <img src="https://postfiles.pstatic.net/MjAyMDA0MjdfMTY0/MDAxNTg3OTgxOTU2MDk2.z27st_0UAsaBmAN_nuwPvQb3hoBgtpqJ0hJFfuWw68gg.FO2q_6A2Wf-FbmJ-69NsSDxaZPa3DbHqc37cAZWRfP8g.JPEG.yourme_/dani3.jpg?type=w580"width ="20%">
+      <p>
+          2019년 3월 10일생 하얀색 토이푸들, 우리집에 온 건 2019년 5월 10일! 이제 1살 좀 넘은 우리 다니는 정말 귀여워!
+        </p>
+      </p>
+    </div>
+  </div>
 </body>
 </html>
