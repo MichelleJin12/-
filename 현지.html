@@ -3,71 +3,113 @@
   <head>
     <title>HOPPIPOLLA</title>
     <meta charset="utf-8">
-      <title>HOPPIPOLLA</title>
-    <meta charset="utf-8">
+    <style>
+      body{
+        font-family: "나눔스퀘어_ac";
+        margin: 3px;
+        background-image: url("https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/310/490/81310490_1573802952866_1_600x600.JPG")
+      }
+      h1{
+        font-size: 45px;
+        text-align: center;
+        color: white;
+        margin-top:60px;
+      }
+      h3{
+          margin: 0px;
+          font-size: 25px;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns: 150px 1fr;
+      }
+
+      #grid #mem{
+        font-family: "나눔스퀘어_ac BOLD";
+        font-weight: 450;
+        width:100px;
+        padding: 20px;
+        padding-right: 14px;
+        padding-left: 30px;
+        border-right:1px solid white;
+        margin:0px;
+      }
+      #grid ol{
+        padding: 0px;
+      }
+      #grid #article{
+        padding: 10px;
+      }
+    </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165579840-1"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-165579840-1');
       </script>
   </head>
   <body>
-    멤버<br>
-    <ol>
-      <li><a href="https://ko.wikipedia.org/wiki/I'll" target="_blank" title="위키백과 바로가기">아일</a></li>
-      <li>하현상</li>
-      <li>김영소</li>
-      <li>홍진호</li>
-    </ol>
-    <h3>ABOUT 호피폴라</h3><br>
-    <p>
-    전체노래 듣기<br>
-    <a href="https://www.youtube.com/watch?v=Ic4lH6nlWII&list=PLx1uTN1NBrv7IvSQb_iYoSSJxgcy9nqbe&index=1" target="_blank" title="Go to Youtube Channel">Go to YouTube</a></p>
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/xZ3JhBiZlIc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Hoppipolla (Korean: 호피폴라) is a South Korean band formed in JTBC survival show Super Band [ko] in 2019 and the winner of the show.[3] Their band name, which means “jumping into puddles” in Icelandic, is about "Hoping people around the world can immerse in their music and feel bliss by getting solace".[4] The band consists of two main vocalists, a cellist and a guitarist: I'll, Ha Hyun-sang, Hong Jin-ho and Kim Young-so respectively. They made their debut on November 16, 2019 with single album "About Time".[5]</p>
-    <img src="group.jpg" width="50%">
+    <h1>WHO IS HOPPIPOLLA</h1>
+    <div id="grid">
+        <div id="mem">
+          MEMEBERS
+          <ol>
+            <li><a href="https://ko.wikipedia.org/wiki/I'll" target="_blank" title="위키백과 바로가기">아일</a></li>
+            <li>하현상</li>
+            <li>김영소</li>
+            <li>홍진호</li>
+          </ol>
+      </div>
+      <div id = "article">
+        <h3>ABOUT 호피폴라</h3>
+        <a href="https://www.youtube.com/watch?v=Ic4lH6nlWII&list=PLx1uTN1NBrv7IvSQb_iYoSSJxgcy9nqbe&index=1" target="_blank" title="Go to Youtube Channel">Go to YouTube</a></p>
+        <p align ="middle">
+        <iframe width="760" height="400" src="https://www.youtube.com/embed/xZ3JhBiZlIc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe></p>
+        <p>Hoppipolla (Korean: 호피폴라) is a South Korean band formed in JTBC survival show Super Band [ko] in 2019 and the winner of the show.[3] Their band name, which means “jumping into puddles” in Icelandic, is about "Hoping people around the world can immerse in their music and feel bliss by getting solace".[4] The band consists of two main vocalists, a cellist and a guitarist: I'll, Ha Hyun-sang, Hong Jin-ho and Kim Young-so respectively. They made their debut on November 16, 2019 with single album "About Time".[5]</p>
+        <img src="group.jpg" width="50%">
+      </div>
+    </div>
 
     <p>
-      <div id="disqus_thread"></div>
-        <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://web-hoppipolla.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </p>
+     <div id="disqus_thread"></div>
+       <script>
+       /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+       /*
+       var disqus_config = function () {
+       this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+       this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+       };
+       */
+       (function() { // DON'T EDIT BELOW THIS LINE
+       var d = document, s = d.createElement('script');
+       s.src = 'https://web-hoppipolla.disqus.com/embed.js';
+       s.setAttribute('data-timestamp', +new Date());
+       (d.head || d.body).appendChild(s);
+       })();
+       </script>
+       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   </p>
 
-    <!--Start of Tawk.to Script-->
-    <p>
-      <script type="text/javascript">
-      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-      (function(){
-      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-      s1.async=true;
-      s1.src='https://embed.tawk.to/5eb0ca7ca1bad90e54a1b209/default';
-      s1.charset='UTF-8';
-      s1.setAttribute('crossorigin','*');
-      s0.parentNode.insertBefore(s1,s0);
-      })();
-      </script>
-      <!--End of Tawk.to Script-->
-    </p>
+   <!--Start of Tawk.to Script-->
+   <p>
+     <script type="text/javascript">
+     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+     (function(){
+     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+     s1.async=true;
+     s1.src='https://embed.tawk.to/5eb0ca7ca1bad90e54a1b209/default';
+     s1.charset='UTF-8';
+     s1.setAttribute('crossorigin','*');
+     s0.parentNode.insertBefore(s1,s0);
+     })();
+     </script>
+     <!--End of Tawk.to Script-->
+   </p>
+
 
   </body>
 </html>
