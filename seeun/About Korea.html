@@ -53,55 +53,56 @@
             font-size: 20px; 
         } 
           
-      
+        table, td, th {  /* table관련 css도 <style>태그에서 설정 */
+            text-align:center;
+            position:relative; margin-left: 150pt;
+        }
+  
         
      </style> 
 
 </head>
 <body>
-<div id ="wholepage">
-    <br>
-    <nav>
-   <div class="topnav">
-        <ul>
-            <li> <a class="active" href="index.html">Home</a></li>
+    <div id ="wholepage">
+        <br>
+        <nav>
+        <div class="topnav">
+            <ul>
+                <li> <a class="active" href="index.html">Home</a></li>
 
-            <li> Info Korea
-                 <ul>   
-                    <li> <a href="About Korea.html"> About Korea </a>  </li>
-                    <li> <a href="events.html"> Events </a>  </li>
+                <li> Info Korea
+                    <ul>   
+                        <li> <a href="About Korea.html"> About Korea </a>  </li>
+                        <li> <a href="events.html"> Events </a>  </li>
+                    </ul>
+                </li>
+
+                <li> A way to Korea
+                        <ul>
+                            <li> <a href="visa.html"> Visa </a>  </li>
+                            <li> <a href="housing.html"> Housing </a> </li>
+                        </ul>  
+                </li>          
+
+                <li>Life in Korea
+                    <ul>
+                        <li> <a href="daily.html"> Daily </a>  </li>
+                        <li> <a href="travel.html"> Travel </a>  </li>
                 </ul>
-            </li>
+                </li>
 
-            <li> A way to Korea
-                     <ul>
-                        <li> <a href="visa.html"> Visa </a>  </li>
-                        <li> <a href="housing.html"> Housing </a> </li>
+                <li> Language Programs 
+                    <ul>
+                        <li> <a href="languageschools.html"> Language Schools </a>  </li>
+                        <li> <a href="languagecommunities.html"> Language Communities </a>  </li>
                      </ul>  
-            </li>          
-
-            <li>Life in Korea
-                <ul>
-                    <li> <a href=" daily.html"> Daily </a>  </li>
-                    <li> <a href=" "> Travel </a>  </li>
-               </ul>
-            </li>
-
-            <li> Language Programs 
-                <ul>
-                    <li> <a href=" "> Language Schools </a>  </li>
-                    <li> <a href=" "> Language Communities </a>  </li>
-                    <li> <a href=" "> Find tutors/tutees </a>  </li>
-               </ul>  
-            </li>
+                </li>
 
 
-            <li><a href="#help">Help</a> </li>
-        <ul> 
-            
-        
-    </div>
-</nav>
+                <li><a href="help.html">Help</a> </li>
+            </ul>       
+        </div>
+        </nav>
 
 
     <p>
@@ -194,20 +195,22 @@
         <br><br>
         <h2> Emergency Calls </h2>
             <div class = "contents"> International SOS Korea provides a 24-hour emergency service for participants.  </div>
+
+            <div class = "contents"> <span style="position:relative;left:130px; color:orange; font-weight:bold; ">Emergency numbers</span>   </div><br>
                  
-                    <table border="1" class="table">
+                    <table border="1" width="40%">
                         
-                            <tr>
-                            <th> 1339 </th>
-                            <th> For medical emergencies / First aid patient  </th>    
+                        <tr>
+                            <td> 1339 </td>
+                            <td> For medical emergencies / First aid patient  </td>    
                         </tr>
                         <tr>
-                            <th> 119</th>
-                            <th> Emergencies for fire / Rescue & Hospital service </th>    
+                            <td> 119</td>
+                            <td> Emergencies for fire / Rescue & Hospital service </td>    
                         </tr>
                         <tr>
-                            <th> 112</th>
-                            <th> Police </th>    
+                            <td> 112</td>
+                            <td> Police </td>    
                         </tr>
                     </table>
 
@@ -261,7 +264,7 @@
                             </a> 
                         </li> 
                         <li class="nav-item"> 
-                            <a class="nav-link" href="#"> 
+                            <a class="nav-link" href="help.html"> 
                                 Help 
                             </a> 
                         </li> 

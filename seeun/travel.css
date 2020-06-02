@@ -78,45 +78,87 @@
 
 
 
-    p{
-        position: relative; top: 200px; left:600px;
-        padding-top: 150px;
-        padding-left: 500px;
-        text-align: center;
-        width:70%;
-         font-family: "Arial Nova", "Geneva"  ; 
-    }
+
+
+/*본문 스타일 적용*/
+
+
+
+p{
+    position: relative; top: 200px; left:300px;
+    padding-top: 150px;
+    padding-left: 300px;
+    text-align: center;
+    width:70%;
+     font-family: "Arial Nova", "Geneva"  ; 
+}
+
+.wholecontents {
+    position: relative; left: 100px;
+}
+
     
-    .wholecontents {
-        position: relative; left: 700px;
-       
-       
-    }
+.basicinfo {
+    position: relative; left:100px; top:80px; bottom: 50px ;
+    font-family: "Linex Sans Bold Italic";
+    font-weight: bold;
+}
+
+
+h1 {
+    font-size:36;
+    color: rgb(14, 175, 204);
+}
+
+h2{
+    color :rgb(0, 153, 153);
+    margin: 10px 100px 5px 50px;
+    font-weight: bold;
+ 
+
+}
+
+.tit{
+    font-size: 17pt;
+    font-weight:bold; 
+    position:relative; top:10px; bottom:5px; left:160px;
+    color:rgb(14, 175, 204);
+}
+
+
+.contents1{
+    font-size: 17pt;     /* 본문 글씨체 지정  */
+    
+    text-indent: 1em;              /* 본문 단락 들여쓰기 설정 */
+    width : 75%;
+    margin: 10px 100px 25px 50px; /* top-10px, right-5px, bottom-25px, right-20px */ 
+    position: relative; top: 10pt; bottom:40pt; left:100px;
+
+}
+
+
+.contents{
+    font-size: 17pt;     /* 본문 글씨체 지정  */
+    
+    text-indent: 1em;              /* 본문 단락 들여쓰기 설정 */
+    width : 75%;
+    margin: 10px 100px 25px 50px; /* top-10px, right-5px, bottom-25px, right-20px */ 
+    position: relative; top: 20pt; bottom:40pt;
+
+}
+
+
+.pickorea      /* 사진  */
+{
+    position: relative; top : 50px; right : 250px; left:300px; bottom:200px;
+    text-align: center;
     
 
-    .basicinfo {
-        position: relative; left:600px; top:80px; bottom: 50px ;
-        font-family: "Linex Sans Bold Italic";
-        font-weight: bold;
-    }
+}
 
-    h1{
-        position : relative ; top: 200px; bottom:400px; left:300px;
-        text-align: center;
-        font-weight: bold;
-        font-family: "Linex Sans Bold Italic";
-        font-size:42;
-        color: rgb(14, 175, 204);
-    }
+.pictravel{
+    position: relative; top : 50px; right : 250px; left:300px; bottom:200px;
+    text-align: center;
+ margin-bottom: 100px;   
+}
 
-   
-
-
- h4{
-        position : relative ; top: 200px; bottom:400px; 
-        text-align: center;
-        font-weight: bold;
-        font-family: "Linex Sans Bold Italic";
-        font-size:30;
-        color: rgb(17, 18, 19);
-    }
