@@ -3,7 +3,6 @@
     width:1500px;
     margin-left: auto;
     margin-right: auto;
-    overflow: visible;
 }           
 
 /* 전체 페이지를 아이디로 묶어서 전체 페이지에 대하여 브라우저 크기가 변경되어도 콘텐츠가 표시되는 크기는 똑같이 나오도록함 */
@@ -87,13 +86,13 @@
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: orange;
-    position : relative; top: 100px; left: 625px;
+    position : relative; top: 100px; left: 725px;
 }
 
 
 
 .erasmus {                              /* 홈페이지 가운데 사진*/
-    position: relative; right : 500px; left:430px; top:100px; bottom:500px;
+    position: relative; right : 500px; left:515px; top:100px; bottom:500px;
     text-align: center;
    
    
@@ -106,6 +105,20 @@
 
 }
 
-p { 
-    margin-bottom: 205px 
+
+.worldmap {
+    width:70%;
+    height:70%;
+    object-fit: cover;
+    opacity:0.8;
+    border-radius:0.5rem;
+    transition:opacity 0.3s;  
+}
+
+.stands{
+    font-size:14pt; 
+    color:rgba(100, 94, 94, 0.842);  
+    position: relative; left:50px; right : 500px;  top:70px; bottom:400px;
+    text-align:left;
+    margin-bottom: 700px;
 }
