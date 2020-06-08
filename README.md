@@ -10,5 +10,5 @@ clone or download > download ZIP > 압축 풀기
 # step 3: upload files or 파일 들어간 뒤 연필 모양 클릭 후 파일 내용 수정
 
 
-#폴더 만들기
+# 폴더 만들기
 create new file하고 폴더명/ 해주기
