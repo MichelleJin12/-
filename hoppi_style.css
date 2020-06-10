@@ -1,0 +1,50 @@
+<style>
+  body{
+    font-family: "나눔스퀘어_ac";
+    margin: 3px;
+    background-image: url("https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/081/310/490/81310490_1573802952866_1_600x600.JPG")
+  }
+  h1{
+    font-size: 45px;
+    text-align: center;
+    color:white;
+    margin-top:60px;
+  }
+  h3{
+      margin: 0px;
+      font-size: 25px;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+
+  #grid #mem{
+    font-family: "나눔스퀘어_ac BOLD";
+    font-weight: 450;
+    width:100px;
+    padding: 20px;
+    padding-right: 14px;
+    padding-left: 30px;
+    border-right:1px solid white;
+    margin:0px;
+  }
+  #grid ol{
+    padding: 0px;
+  }
+  #grid #article{
+    padding: 10px;
+  }
+  @media(max-width:600px){
+    #grid{
+      display:block;
+    }
+    #grid #mem{
+      width:100px;
+      border-right:none;
+    }
+    h1{
+      border-bottom:none;
+    }
+  }
+</style>
